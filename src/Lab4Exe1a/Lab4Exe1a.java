@@ -27,6 +27,7 @@ public class Lab4Exe1a {
             car[count].start();
             try {
                 Thread.sleep(1000);
+                System.out.println("Hiiiiiiiiiiiiiiiii");
             } catch (InterruptedException ex) {
                 Logger.getLogger(Lab4Exe1a.class.getName()).log(Level.SEVERE, null, ex);
             }
