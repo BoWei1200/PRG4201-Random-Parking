@@ -16,6 +16,14 @@ public class Group9_TrafficLightControlSystem {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        TrafficLightControl control = new TrafficLightControl();
+        AllTrafficLight tl=new AllTrafficLight(control);
+        //Pedestrain p = new Pedestrain(control);
+        tl.start();
+        //p.start();
+        
+        
+        
     }
     
 }
